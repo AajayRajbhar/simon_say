@@ -1,0 +1,47 @@
+#main{
+    display:flex;
+    flex-wrap: wrap;
+    width:350px;
+    height:350px;
+    justify-items: center;
+    border: none;
+    margin-left: 620px;
+}
+body{
+    text-align: center;
+    
+}
+
+button{
+    border:5px solid black;
+    width:130px;
+    height:130px;
+    border-radius: 15px;
+    
+    margin-left: 10px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    margin-top: -60px;
+    background-color: blue;
+}
+.orange{
+    margin-top: -60px;
+    background-color: orange;
+}
+.flash{
+    background-color: white;
+}
+button:hover{
+    box-shadow: 5px 5px  #fff;
+}
+    
+h1{
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
